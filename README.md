@@ -34,16 +34,8 @@ python -m venv .venv
 
 Activate it:
 
-**Linux/macOS**
-
 ```bash
 source .venv/bin/activate
-```
-
-**Windows PowerShell**
-
-```powershell
-.venv\Scripts\Activate.ps1
 ```
 
 ### 2. Install dependencies
@@ -58,12 +50,6 @@ Copy the example environment file:
 
 ```bash
 cp .env.example .env
-```
-
-On Windows:
-
-```powershell
-Copy-Item .env.example .env
 ```
 
 Then update `.env`:
